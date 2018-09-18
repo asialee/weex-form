@@ -41,7 +41,7 @@ export default {
         weex.config.bundleUrl.substring(0, startno) + "application.js";
       navigator.push({
         url: newpath,
-        // url: "application.html",
+        // url: "application",
         animated: "true"
       });
     }
