@@ -38,7 +38,9 @@ export default {
   },
   methods: {
     wxcButtonClicked(e) {
-      navigator.pop()
+      const Steve = new BroadcastChannel("Avengers");
+      Steve.postMessage("Assemble!");
+      navigator.pop();
     }
   }
 };
