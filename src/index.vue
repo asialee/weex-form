@@ -24,7 +24,7 @@ export default {
     onList(node) {
       navigator.push(
         {
-          url: "/application.html",
+          url: "/application.js",
           animated: "true"
         }
       );
