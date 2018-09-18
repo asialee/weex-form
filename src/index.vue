@@ -38,7 +38,7 @@ export default {
     onList(node) {
       var startno = weex.config.bundleUrl.indexOf("index.js");
       var newpath =
-        weex.config.bundleUrl.substring(0, startno) + "applicatioin.js";
+        weex.config.bundleUrl.substring(0, startno) + "application.js";
       navigator.push({
         url: newpath,
         // url: "application.html",
