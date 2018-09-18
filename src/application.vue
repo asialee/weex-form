@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     wxcButtonClicked(e) {
-      
+      navigator.pop()
     }
   }
 };
